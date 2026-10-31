@@ -15,7 +15,7 @@ import org.firstinspires.ftc.teamcode.MecanumDrive;
 public class RunOpMode extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException{
-        Pose2d beginPose = new Pose2d(new Vector2d(62, 12), Math.toRadians(180));
+        Pose2d beginPose = new Pose2d(new Vector2d(63, 12), Math.toRadians(180));
                 waitForStart();
 
         MecanumDrive drive = new MecanumDrive(hardwareMap, beginPose);
